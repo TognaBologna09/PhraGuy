@@ -431,7 +431,7 @@ public sealed class PlayerMethods : NetworkBehaviour
     {
         // poll downwards for water layer a short distance,
         // poll upwards for water layer a large distance
-        // if either are true ur underwater and ur movement is changed for water in the fixed update
+        // if either are true you're underwater and your movement is changed for water in the fixed update
 
         if(Physics.Raycast(transform.position, Vector3.down, groundedRadius, waterLayers))
         {
@@ -547,7 +547,7 @@ public sealed class PlayerMethods : NetworkBehaviour
         extraJumpForce = 0f;
     }
     
-    // GRAPPLE!!! HOLYT SHIOT
+    // GRAPPLE!
     private void DoShoot(InputAction.CallbackContext context)
     {
         Debug.Log("Shoot!");
