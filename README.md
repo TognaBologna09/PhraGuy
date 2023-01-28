@@ -86,8 +86,3 @@ The result of all the movement scripts is seen below in this gif: The player can
 
 ![](https://github.com/TognaBologna09/PhraGuy/blob/main/ProceduralAnimationFrogDemo.gif)
 
-### UI
-
-##### Multiplayer 
-
-##### Assets
