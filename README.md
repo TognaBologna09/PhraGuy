@@ -26,7 +26,7 @@ The result of all the movement scripts is seen below in this gif: The player can
 ![](https://github.com/TognaBologna09/PhraGuy/blob/main/PhrogGameplayGif.gif)
 
 ### Player Animations
-The player is animated in real-time. The script to control the player animations was made to be designer-friendly, such that the animations could be tuned with parameters instead of relying on 3d animation. 
+The player is animated in real-time. The script to control the player animations was made to be designer-friendly, such that the animations could be tuned with parameters instead of relying on 3d animation. The ragdoll limbs were set to have limited strength to point to the goal position, such that they comically flop around as the players move. I found that increasing the spring-strength of the ragdoll limb helped to move the limb directly to the position, but made the animations look rigid and bland. If I had more ability to design 3D bone structures in Blender, the procedural animations may have been able to look better but considering the time spent on the project I opted not to dwell on this problem and made the limbs flail the way you see them in the gif below.   
 
 ![](https://github.com/TognaBologna09/PhraGuy/blob/main/ProceduralAnimationFrogDemo.gif)
 
