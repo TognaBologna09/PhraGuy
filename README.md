@@ -83,6 +83,6 @@ The result of all the movement scripts is seen below in this gif: The player can
 ![](https://github.com/TognaBologna09/PhraGuy/blob/main/PhrogGameplayGif.gif)
 
 ### Player Animations
-
+The player is animated in real-time. The script to control the player animations was made to be designer-friendly, such that the animations could be tuned with parameters instead of relying on 3d animation. 
 ![](https://github.com/TognaBologna09/PhraGuy/blob/main/ProceduralAnimationFrogDemo.gif)
 
